@@ -28,18 +28,18 @@ const Container = ({isChange,handleClick1,handleClick2,onConverterBuy,onConverte
 
 
     return (
-      <div className="Container mb-3 p-0 m-auto">
-        <div className="bg-sky-2 radius-20 w-contain p-4">
+      <div className="Container p-3 col-12 col-lg-9">
+        <div className="bg-sky-2 radius-20 p-4">
           <div className="text-center">
             <p className="title-c-1 mb-0">Cambio de dólares online</p>
             <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>
           </div>
 
-          <div className="row text-center w-box m-auto" >
-            <div className={"col-6 box-green-1"  + buttons1() }  onClick={handleClick1}  >
+          <div className="row text-center  m-auto" >
+            <div className={"col-6 box-green-1 p-0"  + buttons1() }  onClick={handleClick1}  >
               <p className="mb-0 p-2">Compra: 3.2480 </p>
             </div>
-            <div className={"col-6 box-green-2 "  + buttons2() }  onClick={handleClick2}>
+            <div className={"col-6 box-green-2 p-0"  + buttons2() }  onClick={handleClick2}>
               <p className="mb-0 p-2">Venta: 3.2700</p>
             </div>
           </div>
@@ -118,13 +118,13 @@ const Container = ({isChange,handleClick1,handleClick2,onConverterBuy,onConverte
 
           <div className="text-center grey-2 mt-3" >
             <p className="title-4 mb-0 ">Ahorra S/. 100.00 respecto al banco</p>
-            <p className="f14">Tipo de cambio vigente hasta 00:00</p>
+            <p className="f14 m-0">Tipo de cambio vigente hasta 00:00</p>
           </div>
 
 
         </div>
 
-        <div className="text-center" >
+        <div className="text-center mt-3" >
           <a  className="btn next radius-20 bg-green" href="#/confirmation"  onClick={() => navigateTo('confirmation')}>Siguiente</a>
         </div>
       </div>
