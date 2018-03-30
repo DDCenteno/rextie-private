@@ -1,0 +1,92 @@
+* {
+  font-family: "Nunito", sans-serif; }
+
+Header {
+  border-bottom: 1px solid #E6E7E8; }
+
+.InfoUser {
+  line-height: 0.5;
+  font-size: 14px;
+  margin: 2em 1em; }
+
+.style-item {
+  list-style: none; }
+
+.bg-grey-2 {
+  background-color: #A2A2A2; }
+
+.bg-sky-2 {
+  background-color: #F6F9FC; }
+
+.style-item li {
+  display: inline-block;
+  margin: 1em;
+  color: #A2A2A2; }
+
+.float {
+  float: right; }
+
+.radius-20 {
+  border-radius: 20px; }
+
+.grey-1 {
+  color: #737476; }
+
+.flag {
+  width: 45px; }
+
+.title-c-1 {
+  font-size: 32px;
+  color: #26A8E0;
+  font-weight: 700;
+  line-height: 1; }
+
+.title-4 {
+  font-size: 18px;
+  font-weight: 700; }
+
+.input-c {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 2px 9px 4px 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #737476; }
+
+.w-contain {
+  width: 460px;
+  margin: 1em auto; }
+
+.title-c-2 {
+  font-size: 24px;
+  color: #7ACE3B;
+  font-weight: 700; }
+
+.title-c-3 {
+  font-size: 24px;
+  color: #737476;
+  text-align: center; }
+
+.box-green-1 {
+  border: 2px solid #7ACE3B;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 18px; }
+
+.btn-active {
+  background-color: #7ACE3B;
+  color: white; }
+
+.btn-desactive {
+  background-color: transparent;
+  color: #7ACE3B; }
+
+.box-green-2 {
+  border: 2px solid #7ACE3B;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 18px; }
+
+.w-box {
+  width: 400px; }
+
+/*# sourceMappingURL=main.css.map */
