@@ -26,7 +26,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
           <div className="row" >
             <div className="container col-12 col-lg-6">
               <div className="box-noti relative mt-2">
-                <div className="circle"><p>1</p></div>
+                
                 <p className="title-c-3 pl-4 pr-4 pt-4">Transfiere el monto en {isChange.typeMoney} desde tu banca en línea</p>
                 <div className="pr-4 pl-4">
                   <hr />
