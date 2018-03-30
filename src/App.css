@@ -60,7 +60,7 @@ Header {
 }
 
 .title-c-1 {
-  font-size: 32px;
+  font-size: 24px;
   color: var(--sky-1);
   font-weight: 700;
   line-height: 1;
@@ -88,7 +88,7 @@ Header {
 }
 
 .title-c-2 {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--green-1);
   font-weight: 700;
 }
@@ -102,8 +102,10 @@ Header {
 .box-green-1 {
   border: 2px solid var(--green-1);
   border-radius: 20px 0px 0px 20px;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .btn-active {
@@ -119,8 +121,10 @@ Header {
 .box-green-2 {
   border: 2px solid var(--green-1);
   border-radius: 0px 20px 20px 0px;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .w-box {
@@ -142,8 +146,8 @@ Header {
 }
 
 .next {
-  width: 200px;
-  font-size: 18px;
+  width: 100%;
+  font-size: 14px;
   transition: 1s;
 }
 
@@ -344,4 +348,13 @@ Header {
 }
 .bg-red{
   background-color: red
+}
+
+.Container {
+
+  margin: 1em auto;
+}
+
+.break{
+  overflow-wrap: break-word;
 }
