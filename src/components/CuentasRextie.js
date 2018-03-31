@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CuentasRextie = () => (
-    <div className="cuentas-rextie w600 m-auto" >
+    <div className="cuentas-rextie col-12 col-lg-3 " >
         <div>
             <p className="title-4 ">Cuentas Bancarias de Rextie</p>
         </div>
@@ -10,7 +10,7 @@ const CuentasRextie = () => (
                 <p>CCI Interbank (para transferencias interbancarias)</p>
             </div>
             <div>
-                <table className="table table-bordered table-striped" >
+                <table className="table table-bordered table-striped table-sm" >
                     <thead className="bg-red">
                         <tr  >
                             <th>Tipo de Cuenta</th>
@@ -39,7 +39,7 @@ const CuentasRextie = () => (
                 <p>BCP</p>
             </div>
             <div>
-                <table className="table table-hover table-bordered table-striped" >
+                <table className="table table-hover table-bordered table-striped table-sm" >
                     <thead>
                         <tr>
                             <th>Tipo de Cuenta</th>
@@ -68,7 +68,7 @@ const CuentasRextie = () => (
                 <p>INTERBANK</p>
             </div>
             <div>
-                <table className="table table-bordered table-striped" >
+                <table className="table table-bordered table-striped table-sm" >
                     <thead>
                         <tr>
                             <th>Tipo de Cuenta</th>
