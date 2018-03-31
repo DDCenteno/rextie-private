@@ -34,6 +34,7 @@ Reto:
 ### Ideación: 
 
 * User Persona
+
 ![image](https://user-images.githubusercontent.com/30356026/38168133-b9bbd640-3509-11e8-83f9-7b92d3602818.png)
 
 ### Prototipado:
