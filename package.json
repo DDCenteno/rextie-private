@@ -22,10 +22,13 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
     "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
+    "gulp-react": "^3.1.0",
     "gulp-sass": "^3.2.1",
     "gulp-uglify": "^3.0.0"
   }

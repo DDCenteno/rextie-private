@@ -2,8 +2,8 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
-
-
+var babel = require('gulp-babel');
+var react = require('gulp-react');
 // copiando archivos de bootstrap
 gulp.task('sass', ()=>{
   return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss',
@@ -14,13 +14,22 @@ gulp.task('sass', ()=>{
 .pipe(gulp.dest('public/css'))
 })
 
+
+
 // copiando archivos de jquery 
 gulp.task('js',()=>{
   return gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/bootstrap/dist/js/bootstrap.js',
 'node_modules/popper.js/dist/umd/popper.js','src/app2.js'])
 .pipe(concat('app.min.js')) 
-.pipe(uglify())
 .pipe(gulp.dest('public/js'))
 
 })
 
+// una tarea que ejecuta todo
+gulp.task('minifica-todo',['css'])
+
+// va actualizando ante cualquier cambio
+gulp.task('watch', function(){
+    gulp.watch(['src/sass/*.scss'], ['css']);
+    
+  })

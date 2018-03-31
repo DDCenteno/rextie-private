@@ -22,11 +22,12 @@ const Notification = ({ isChange, navigateTo, OnNavigateReset }) => {
         deberás realizar la transferencia en un maximo de 15 minutos para mantener
 el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
         </div>
-        <div className="container p-4">
+        <div className="container ">
           <div className="row" >
             <div className="container col-12 col-lg-6">
+            <div className="circle"><p>1</p></div>
               <div className="box-noti relative mt-2">
-                
+             
                 <p className="title-c-3 pl-4 pr-4 pt-4">Transfiere el monto en {isChange.typeMoney} desde tu banca en línea</p>
                 <div className="pr-4 pl-4">
                   <hr />
@@ -37,7 +38,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                 </figure>
                 <div className="container">
                   <div className="row p-0 m-auto">
-                    <div className="col-6 f14 line-h">
+                    <div className="col-6 f12 line-h p-0 ">
                       <p>Cantidad a transferir :</p>
                       <p>Banco de Origen :</p>
                       <p>Banco de Destino :</p>
@@ -46,7 +47,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                       <p>Titular de Cuenta :</p>
                       <p>RUC del Titular :</p>
                     </div>
-                    <div className="col-6 f14 line-h">
+                    <div className="col-6 f12 line-h ">
                       <p className="font-weight-bold" >{validateChange()} {isChange.typeMoney}</p>
                       <p>Scotiabank</p>
                       <p>Interbank</p>
@@ -62,11 +63,12 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
               </div>
             </div>
             <div className="container col-12 col-lg-6 mt-2">
+            <div className="circle"><p>2</p></div>
               <div className="box-noti relative">
-                <div className="circle"><p>2</p></div>
+                
                 <div className="pl-4 pr-4 pt-4 break">
 
-                  <p className="title-c-3" >Rextie realizará la transferencia en soles al cliente</p>
+                  <p className="title-c-3" >Rextie realizará la transferencia en  {isChange.typeChange} al cliente</p>
                 </div>
 
                 <div className="pr-4 pl-4">
@@ -77,7 +79,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                 </figure>
                 <div className="container">
                   <div className="row p-0 m-auto">
-                    <div className="col-6 f14 line-h">
+                    <div className="col-6 f12 line-h p-0">
                       <p>Cantidad a transferir :</p>
                       <p>Banco de Origen :</p>
                       <p>Banco de Destino :</p>
@@ -86,7 +88,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                       <p>Titular de Cuenta :</p>
 
                     </div>
-                    <div className="col-6 f14 line-h">
+                    <div className="col-6 f12 line-h ">
                       <p className="font-weight-bold">{validateResult()} {isChange.typeChange}</p>
                       <p>Scotiabank</p>
                       <p>Interbank</p>

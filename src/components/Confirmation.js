@@ -87,14 +87,14 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
       </div>
 
 
-<div className="container">
+<div className="container box-confirmation">
 <div className="row">
         <div className="col-6 mt-3">
-          <a className="btn next radius-20 white bg-grey-2 " href="#/converter" onClick={() => OnNavigateReset('converter')} >Cambiar cantidad</a>
+          <a className="btn  radius-20 white bg-grey-2 " href="#/converter" onClick={() => OnNavigateReset('converter')} >Cambiar cantidad</a>
 
         </div>
         <div className="col-6 mt-3">
-          <a className="btn next radius-20 bg-green" href="#/notification" onClick={() => navigateTo('notification')}>Aceptar</a>
+          <a className="btn  radius-20 bg-green" href="#/notification" onClick={() => navigateTo('notification')}>Aceptar</a>
         </div>
       </div>
 </div>

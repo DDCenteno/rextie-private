@@ -37,10 +37,10 @@ const Container = ({isChange,handleClick1,handleClick2,onConverterBuy,onConverte
 
           <div className="row text-center  m-auto" >
             <div className={"col-6 box-green-1 p-0"  + buttons1() }  onClick={handleClick1}  >
-              <p className="mb-0 p-2">Compra: 3.2480 </p>
+              <p className="mb-0 p-2">Compra: 3.248 </p>
             </div>
             <div className={"col-6 box-green-2 p-0"  + buttons2() }  onClick={handleClick2}>
-              <p className="mb-0 p-2">Venta: 3.2700</p>
+              <p className="mb-0 p-2">Venta: 3.270</p>
             </div>
           </div>
           <div className={"container mt-3"  + show1() }>
