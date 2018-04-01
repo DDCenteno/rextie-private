@@ -4,6 +4,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var babel = require('gulp-babel');
 var react = require('gulp-react');
+var minifycss = require('gulp-minify-css');
 var imagemin = require('gulp-imagemin');
 
 // copiando archivos de bootstrap
@@ -13,6 +14,7 @@ gulp.task('sass', ()=>{
 ])
 .pipe(sass())
 .pipe(concat('main.min.css'))
+.pipe(minifycss())
 .pipe(gulp.dest('dist/css'))
 })
 
