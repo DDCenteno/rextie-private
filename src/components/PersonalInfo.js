@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PersonalInfo = ({user}) => (
-  <div className="personal-info col-12 col-lg-9 w600 m-auto ">
+  <div className="personal-info col-12 col-lg-9 w600 m-auto pt-3 ">
     <div className=" bg-green text-center p-1"><p className="mb-0">Perfil</p></div>
     <div>
       <table className="table ">

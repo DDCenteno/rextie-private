@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CuentasRextie = () => (
-    <div className="cuentas-rextie col-12 col-lg-9 w600 m-auto " >
+    <div className="cuentas-rextie col-12 col-lg-9 w600 m-auto pt-3" >
         <div>
             <p className="title-4 ">Cuentas Bancarias de Rextie</p>
         </div>
