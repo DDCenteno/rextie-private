@@ -219,6 +219,20 @@ Header {
   font-size: 12px;
 }
 
+.f16{
+  font-size: 16px;
+}
+
+.f18{
+  font-size: 18px;
+}
+
+.title-c-5{
+  color:  $sky-1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .hide {
   display: none;
 }
@@ -388,5 +402,17 @@ Header {
 @media (max-width: 576px) {
   .w600{
     max-width: 450px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1049px) {
+ 
+
+  .title-c-5{
+    font-size: 16px;
+  }
+
+  .f16{
+    font-size: 14px;
   }
 }

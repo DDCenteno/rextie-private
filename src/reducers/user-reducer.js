@@ -1,5 +1,6 @@
 const initState = {
-    name: 'Pepito Rojas',
+    name: 'Carlos',
+    lastname: 'Centeno Ccahuana',
     typeDoc: 'DNI',
     NumDoc: '09609980',
     email: 'pepitoroja@gmail.com',
