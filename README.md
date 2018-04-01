@@ -49,7 +49,7 @@ Para la creación de nuestro prototipo hemos utilizado la guía de estilos dada 
 
 * Segunda propuesta:
 
-![image](https://user-images.githubusercontent.com/30356026/38168835-1cd9f108-351e-11e8-8660-3eb1b282290f.png
+![image](https://user-images.githubusercontent.com/30356026/38168835-1cd9f108-351e-11e8-8660-3eb1b282290f.png)
 
 ## Vistas Desktop
 
