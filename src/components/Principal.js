@@ -4,7 +4,9 @@ import Confirmation from '../containers/confirmation-container'
 import Notification from '../containers/notification-container'
 import PersonalInfo from '../containers/user-container'
 import CuentaRextie from './CuentasRextie'
-
+import CuentaPersonal from './CuentaPersonal'
+import CuentaTerceros from './CuentaTerceros'
+import Operaciones from './History'
 
 const Principal = ({isNavigation }) => {
 
@@ -19,6 +21,12 @@ const Principal = ({isNavigation }) => {
       return <PersonalInfo />
     case 'cuentaRextie':
       return <CuentaRextie /> 
+    case 'operaciones':
+      return <Operaciones /> 
+    case 'bancapersonal':
+      return <CuentaPersonal /> 
+    case 'bancaterceros':
+      return <CuentaTerceros /> 
     default:
       break;
   }

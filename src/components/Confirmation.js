@@ -78,7 +78,7 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset ,onShowPo
         <div className="form-group ">
           <label htmlFor="inputCelu">Celular:</label>
            
-          <input type="text" className="form-control" id="inputCelu" />
+          <input type="text" className="form-control" id="inputCelu" required />
         </div>
 
 
