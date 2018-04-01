@@ -8,7 +8,7 @@ const PersonalInfo = ({user}) => (
         <tbody>
           <tr>
             <td>Nombre Completo</td>
-            <td>{user.name}</td>
+            <td>{user.name} {user.lastname} </td>
           </tr>
           <tr>
             <td>Tipo de Documento</td>
