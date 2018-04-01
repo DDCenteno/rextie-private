@@ -24,7 +24,7 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
         <h2 className="title-c-4">Confirmación de datos</h2>
       </div>
 
-      <div className="border radius-20 p-4  m-auto">
+      <div className="border radius-20 p-4 w500 m-auto">
         <table className="table table-hover table-bordered table-striped text-center table-sm">
           <thead>
             <tr>

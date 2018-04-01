@@ -28,8 +28,8 @@ const Container = ({isChange,handleClick1,handleClick2,onConverterBuy,onConverte
 
 
     return (
-      <div className="Container p-3 col-12 col-lg-9">
-        <div className="bg-sky-2 radius-20 p-4">
+      <div className="Container p-3 col-12 col-lg-9 ">
+        <div className="bg-sky-2 radius-20 p-4 w400 m-auto">
           <div className="text-center">
             <p className="title-c-1 mb-0">Cambio de dólares online</p>
             <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>

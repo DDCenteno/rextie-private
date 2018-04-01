@@ -15,10 +15,10 @@ const Notification = ({ isChange, navigateTo, OnNavigateReset }) => {
 
 
   return (
-    <div className="Container col-lg-9">
-      <div className="bg-sky-2 radius-20">
+    <div className="Container col-12 col-sm-9  col-lg-9">
+      <div className="bg-sky-2 radius-20 pb-3 w600 m-auto">
         <div className="message col-12 m-auto pt-4">
-          <p>Tu código de operación N°9808 fue registrada el día 08/03 a las 23:05 horas.
+          <p className="mb-0">Tu código de operación N°9808 fue registrada el día 08/03 a las 23:05 horas.
         deberás realizar la transferencia en un maximo de 15 minutos para mantener
 el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
         </div>
@@ -26,7 +26,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
           <div className="row" >
             <div className="container col-12 col-lg-6">
             <div className="circle"><p>1</p></div>
-              <div className="box-noti relative mt-2">
+              <div className="box-noti relative ">
              
                 <p className="title-c-3 pl-4 pr-4 pt-4">Transfiere el monto en {isChange.typeMoney} desde tu banca en línea</p>
                 <div className="pr-4 pl-4">
@@ -38,7 +38,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                 </figure>
                 <div className="container">
                   <div className="row p-0 m-auto">
-                    <div className="col-6 f12 line-h p-0 ">
+                    <div className="col-6 f12 line-h p-0 pad3">
                       <p>Cantidad a transferir :</p>
                       <p>Banco de Origen :</p>
                       <p>Banco de Destino :</p>
@@ -62,7 +62,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                 <div className="text-center"><p><span className="text-sky">Envía el voucher a </span><span className="text-green">pagos@rextie.com</span> </p></div>
               </div>
             </div>
-            <div className="container col-12 col-lg-6 mt-2">
+            <div className="container col-12 col-lg-6 ">
             <div className="circle"><p>2</p></div>
               <div className="box-noti relative">
                 
@@ -79,7 +79,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                 </figure>
                 <div className="container">
                   <div className="row p-0 m-auto">
-                    <div className="col-6 f12 line-h p-0">
+                    <div className="col-6 f12 line-h p-0 pad3">
                       <p>Cantidad a transferir :</p>
                       <p>Banco de Origen :</p>
                       <p>Banco de Destino :</p>

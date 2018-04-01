@@ -6291,9 +6291,6 @@ Header {
   color: #7ACE3B;
   font-weight: 600; }
 
-.w600 {
-  width: 600px; }
-
 .info-circle {
   height: 40px;
   width: 40px;
@@ -6324,5 +6321,23 @@ Header {
 
 .box-confirmation a {
   width: 100%; }
+
+@media (min-width: 768px) {
+  .w400 {
+    max-width: 400px; }
+  .w500 {
+    max-width: 500px; }
+  .w600 {
+    max-width: 760px; }
+  .box-noti {
+    height: 410px; }
+  .f12 {
+    font-size: 14px; }
+  .title-c-3 {
+    font-size: 20px; } }
+
+@media (max-width: 576px) {
+  .w600 {
+    max-width: 450px; } }
 
 @import url("https://fonts.googleapis.com/css?family=Nunito");
