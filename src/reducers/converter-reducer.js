@@ -17,7 +17,11 @@ const initState = {
   type: 'COMPRA',
   typeMoney: 'SOLES',
   typeChange: 'USD',
-  actualPage :'converter'
+  actualPage :'converter',
+  showPopup1: false,
+  showPopup2: false,
+  message1 :'',
+  message2 :'',
 }
 
 
@@ -55,6 +59,7 @@ console.log(action)
         typeMoney: 'USD',
         typeChange: 'SOLES',
         change: SALE,
+        
       };
     case 'CONVERTER_BUY':
       return { ...state,
@@ -87,6 +92,20 @@ console.log(action)
         term2: 0,
         result1: 0,
         result2: 0
+      
+      };
+      case 'SHOW_POPUP1':
+      return {
+        ...state,
+        showPopup1: !action.payload,
+        message1:action.message
+      
+      };
+      case 'SHOW_POPUP2':
+      return {
+        ...state,
+        showPopup2: !action.payload,
+        message2:action.message
       
       };
 

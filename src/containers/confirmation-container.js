@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Confirmation from '../components/Confirmation';
-import { reset,navigation, navigateReset } from '../actions/action-index';
+import { reset,navigation, navigateReset,showPopup1,showPopup2 } from '../actions/action-index';
 import { bindActionCreators } from 'redux';
 
 function mapStateToProps(state) {
@@ -18,7 +18,9 @@ function mapDispatchToProps(dispatch) {
 
   return bindActionCreators({ onReset: reset, 
                               navigateTo: navigation,
-                              OnNavigateReset : navigateReset
+                              OnNavigateReset : navigateReset,
+                              onShowPopUp1 : showPopup1,
+                              onShowPopUp2 : showPopup2
 
   
   }, dispatch)

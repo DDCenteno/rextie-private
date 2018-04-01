@@ -50,3 +50,20 @@ export function navigateReset(page) {
     
   }
 }
+
+export function showPopup1(text,message1) {
+  return {
+    type: 'SHOW_POPUP1',
+    payload : text,
+    message : message1
+  }
+}
+
+export function showPopup2(text , message2) {
+  return {
+    type: 'SHOW_POPUP2',
+    payload : text,
+    message : message2
+    
+  }
+}

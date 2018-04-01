@@ -1,9 +1,9 @@
 import React from 'react'
+import PopUp from './Popup'
 
 
 
-
-const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
+const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset ,onShowPopUp1,onShowPopUp2 }) => {
 
   const validateChange = () => {
     const changeValue = isChange.term1 ? isChange.term1 : isChange.term2
@@ -14,7 +14,6 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
     const changeResult = isChange.term1 ? isChange.result1 : isChange.result2
     return changeResult;
   }
-
 
 
 
@@ -50,24 +49,27 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
         </div>
         <div className="form-group row pl-3">
           <label htmlFor="exampleFormControlSelect1">Cuenta Bancaria de Origen en {isChange.typeMoney}:</label>
+          {isChange.showPopup1 ? <PopUp text="La cuenta de origen indica de donde se sacará la cantidad de dinero para realizar el cambio." /> : null   }      
           <select className="form-control col-10" id="exampleFormControlSelect1">
             <option>Seleccione Cuenta Bancaria Origen</option>
           </select>
           <div className="col-2" >
-            <button className="  info-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="La cuenta de origen indica de donde se sacará la cantidad de dinero en dólares para el cambio a soles.">
-              ?
+          <button className="info-circle " onClick={() => onShowPopUp1(isChange.showPopup1)} > ?
+          
           </button>
+          
           </div>
 
         </div>
         <div className="form-group row pl-3">
           <label htmlFor="exampleFormControlSelect1">Cuenta Bancaria de Destino en {isChange.typeChange}:</label>
+          {isChange.showPopup2 ? <PopUp text="La cuenta de destino indica donde se depositará el dinero cambiado." /> : null   }   
           <select className="form-control col-10 " id="exampleFormControlSelect1">
             <option>Seleccione Cuenta Bancaria Destino</option>
           </select>
           <div className="col-2" >
-            <button className="  info-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="La cuenta de destino indica donde se depositará el monto cambiado a soles.">
-              ?
+          <button className="info-circle " onClick={() => onShowPopUp2(isChange.showPopup2)} > ?
+          
           </button>
           </div>
 
@@ -75,6 +77,7 @@ const Confirmation = ({ isChange, onReset, navigateTo, OnNavigateReset }) => {
 
         <div className="form-group ">
           <label htmlFor="inputCelu">Celular:</label>
+           
           <input type="text" className="form-control" id="inputCelu" />
         </div>
 

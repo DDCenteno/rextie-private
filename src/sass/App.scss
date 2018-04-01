@@ -371,6 +371,61 @@ Header {
   }
 }
 
+
+
+
+ .popuptext {
+   width: 160px;
+  background-color: $sky-1;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0%;
+  left: 150%;
+  margin-left: -80px;
+}
+
+
+.notice {
+  position: relative;
+  margin: 1em;
+  background: #F9F9F9;
+  padding: 1em 1em 1em 2em;
+  border-left: 4px solid #DDD;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  font-style: italic;
+}
+
+.notice:before {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: -17px;
+  background-color: #DDD;
+  color: #FFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.success {
+  border-color: $green-1;
+}
+
+.success:before {
+  content: "!";
+  background-color:  $green-1;
+}
+
+
 @media (min-width: 768px) {
 
   .w400{
