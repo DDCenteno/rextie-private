@@ -43,6 +43,14 @@ Para la creación de nuestro prototipo hemos utilizado la guía de estilos dada 
 
 ![image](https://user-images.githubusercontent.com/30356026/38168189-09e97ff4-350b-11e8-877b-13b48a8d001c.png)
 
+* Iteraciónes:
+
+![image](https://user-images.githubusercontent.com/30356026/38168817-6ac28ca0-351d-11e8-8890-c52efaea5527.png)
+
+* Segunda propuesta:
+
+![image](https://user-images.githubusercontent.com/30356026/38168835-1cd9f108-351e-11e8-8660-3eb1b282290f.png
+
 ## Vistas Desktop
 
 ![Con titulo](https://user-images.githubusercontent.com/32285482/37750696-6d761a48-2d5c-11e8-88d5-297bd489321b.png "titulo")
