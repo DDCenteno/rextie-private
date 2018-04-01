@@ -53,15 +53,19 @@ Para la creación de nuestro prototipo hemos utilizado la guía de estilos dada 
 
 ## Vistas Desktop
 
-![Con titulo](https://user-images.githubusercontent.com/32285482/37750696-6d761a48-2d5c-11e8-88d5-297bd489321b.png "titulo")
+![Con titulo](https://user-images.githubusercontent.com/32285482/38169260-2eade45e-352b-11e8-922a-617c7ec842e7.png "titulo")
 
-![Con titulo](https://user-images.githubusercontent.com/32285482/37750698-6f1f0a80-2d5c-11e8-9cc5-2d2da8d8cb2b.png "titulo")
+![Con titulo](https://user-images.githubusercontent.com/32285482/38169300-24e748ba-352c-11e8-9a5d-2ce3a5a55451.png "titulo")
 
-![Con titulo](https://user-images.githubusercontent.com/32285482/37750699-7036fc7a-2d5c-11e8-968f-67ef8873e41f.png "titulo")
+
+![Con titulo](https://user-images.githubusercontent.com/32285482/38169276-9d2de4ec-352b-11e8-91cd-0ebb3ca3cf74.png "titulo")
+
 
 ## Vistas Mobile
 
-![Con titulo](https://user-images.githubusercontent.com/32285482/38168346-0c8ab364-350f-11e8-8b9c-403bd60c381d.png "titulo")
+![Con titulo](https://user-images.githubusercontent.com/32285482/38169261-2fd0acf4-352b-11e8-96b2-4260e327e378.png "titulo")
+
+
 
 ![Con titulo](https://user-images.githubusercontent.com/32285482/38168362-6a4de9e4-350f-11e8-8a37-49116d419b33.png "titulo")
 
